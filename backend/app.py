@@ -68,3 +68,4 @@ def generate_heatmap(img_array, model, last_conv_layer_name = "Conv_1"):
     heatmap = cv2.resize(heatmap.numpy(), (224, 224))
 
     return heatmap
+    
