@@ -1,5 +1,5 @@
 fastapi
-uvicorn
-tensorflow
+uvicorn[standard]
+tensorflow-cpu
 pillow
 numpy
